@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETMP.Module13.Serialization.Basic", "NETMP.Module13.Serialization.Basic\NETMP.Module13.Serialization.Basic.csproj", "{4271B84B-E9D4-4ABD-BD59-25614DAFED9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETMP.Module13.Serialization.Tests", "NETMP.Module13.Serialization.Tests\NETMP.Module13.Serialization.Tests.csproj", "{2ABB19DB-FFD7-45D3-AF76-A6922E9EFD36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETMP.Module13.Serialization.Database", "NETMP.Module13.Serialization.Database\NETMP.Module13.Serialization.Database.csproj", "{D6C1A125-1AF5-44C4-BEB1-E9F49BB81460}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4271B84B-E9D4-4ABD-BD59-25614DAFED9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4271B84B-E9D4-4ABD-BD59-25614DAFED9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4271B84B-E9D4-4ABD-BD59-25614DAFED9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4271B84B-E9D4-4ABD-BD59-25614DAFED9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ABB19DB-FFD7-45D3-AF76-A6922E9EFD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABB19DB-FFD7-45D3-AF76-A6922E9EFD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABB19DB-FFD7-45D3-AF76-A6922E9EFD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABB19DB-FFD7-45D3-AF76-A6922E9EFD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C1A125-1AF5-44C4-BEB1-E9F49BB81460}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C1A125-1AF5-44C4-BEB1-E9F49BB81460}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C1A125-1AF5-44C4-BEB1-E9F49BB81460}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C1A125-1AF5-44C4-BEB1-E9F49BB81460}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A76A3BA1-9933-4950-9C89-DE2E27F20DAB}
+	EndGlobalSection
+EndGlobal
