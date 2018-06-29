@@ -77,14 +77,7 @@ namespace Task
 
             var serializer = new OrderDataContractSurrogateHelper<OrdersCollection>();
 
-            var objectContext = (dbContext as IObjectContextAdapter).ObjectContext;
-
             var orders = dbContext.Orders.Take(3).ToList();
-
-            orders.ForEach(order => objectContext.LoadProperty(order, c => c.Employee));
-            //orders.ForEach(order => objectContext.LoadProperty(order, c => c.Customer));
-            //orders.ForEach(order => objectContext.LoadProperty(order, c => c.Order_Details));
-            //orders.ForEach(order => objectContext.LoadProperty(order, c => c.Shipper));
 
             serializer.SerializeAndDeserialize(new OrdersCollection {Orders = orders});
         }
